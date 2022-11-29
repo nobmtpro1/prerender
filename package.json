@@ -4,6 +4,7 @@
   "description": "Service to prerender Javascript rendered pages for SEO",
   "version": "5.20.0",
   "license": "MIT",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/prerender/prerender"
@@ -29,6 +30,6 @@
     "test": "./node_modules/.bin/mocha --recursive"
   },
   "engines": {
-    "node": ">=10"
+    "node": "16.14.2"
   }
 }
